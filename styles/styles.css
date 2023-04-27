@@ -1,0 +1,28 @@
+main{
+    max-width: 1024px;
+}
+main img{
+    width: 200px;
+    height: auto;
+}
+p{
+    padding: 0;
+}
+aside{
+    width: 1024px;
+    margin: 3%;
+    border: 3px solid rgba( 180, 40, 10, 2);
+    padding: 15px;
+    background-color: rgb(87, 50, 236);
+    color: aliceblue;
+    text-align: justify;
+}
+aside img{
+    width: 200px;
+    height: auto;
+}
+footer{
+    margin-top: 10px;
+    border-top: 2px solid rgb(115, 215, 116);
+    text-align: center;
+}

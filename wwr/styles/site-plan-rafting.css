@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&family=Roboto+Condensed&display=swap');
+
+:root{
+    --primary-color:#48A0DC;
+    --secondary-color:#4E9655;
+    --accent1-color:#E6E615;
+    --accent2-color:#584207;
+
+    --heading-font: 'Philosopher', serif;
+    --paragraph-font: 'Roboto Condensed', serif;
+
+    --navigation-background-color: #4e9655;
+    --navigation-link-color:#584207;
+    --navigation-hover-link-color:#48A0DC;
+    --navigation-hover-background-color:#E6E615;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: var(--primary-color);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4{
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+h3{
+    margin-left: 1em;
+    font-size: 24px;
+}
+
+h4{
+    margin-left: 2em;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+    font-size: 23px;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+
+header>div{
+    font-size: 115%;
+}
+
+a{
+    margin-left: 50px;
+}
+
+p{
+    color: var(--accent2-color);
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.palette{
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.palette th{
+    background-color: antiquewhite;
+}
+
+.palette td{
+    height: 4em;
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+}
+
+.accent2 {
+    background-color: var(--accent2-color);
+}
+
+p.ccout{
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+
+nav{
+    background-color: var(--secondary-color);
+    text-align: center;
+    font-size: 1.3em;
+    height: 3em;
+}
+
+nav a{
+    color: var(--navigation-link-color);
+    text-decoration: none;
+    padding: 2rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--navigation-link-color);
+}
+
+nav a:hover{
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background-color);
+}
+
+footer{
+    margin-top: 10px;
+    text-align: center;
+}

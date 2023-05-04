@@ -1,28 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    margin-top: 20px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    padding: 23px;
+}
 main{
     max-width: 1024px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 40px;
 }
+main h1{
+    text-align: center;
+    color: rgb(39, 215, 156);
+}
+main p{
+    margin-top: 15px;
+    margin-left: 270px;
+    width: 500px;
+}
+
 main img{
+    float:right;
     width: 200px;
     height: auto;
+    margin-right: 20px;
 }
 p{
     padding: 0;
 }
 aside{
     width: 1024px;
-    margin: 3%;
-    border: 3px solid rgba( 180, 40, 10, 2);
-    padding: 15px;
-    background-color: rgb(87, 50, 236);
-    color: aliceblue;
+    height: 250px;
+    position: relative;
     text-align: justify;
 }
+aside h2{
+    position: absolute;
+    top: 20px;
+    left: 80px;
+}
+aside p{
+    margin-left: 230px;
+    margin-top: 80px;
+}
 aside img{
+    float: left;
+    margin-top: 50px;
     width: 200px;
     height: auto;
 }
 footer{
-    margin-top: 10px;
+    margin: 0;
+    padding-top: 1em;
     border-top: 2px solid rgb(115, 215, 116);
     text-align: center;
+}
+/*Class Selectors*/
+.box{
+    margin: 3%;
+    margin-top: 8%;
+    border: 3px solid rgba( 180, 40, 10, 2);
+    padding: 15px;
+    background-color: rgb(71, 220, 26);
+    color: rgb(251, 251, 251);
+}
+li{
+   margin-left: 400px;
+   list-style: none;
+}
+li a{
+    text-decoration: none;
 }

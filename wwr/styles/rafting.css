@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&family=Roboto+Condensed&display=swap');
+
+:root{
+    --primary-color:#48A0DC;
+    --secondary-color:#4E9655;
+    --accent1-color:#E6E615;
+    --accent2-color:#584207;
+
+    --heading-font: 'Philosopher', serif;
+    --paragraph-font: 'Roboto Condensed', serif;
+
+    --navigation-background-color: #4e9655;
+    --navigation-link-color:#584207;
+    --navigation-hover-link-color:#48A0DC;
+    --navigation-hover-background-color:#E6E615;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 1020px;
+    margin: auto;
+    background-color: var(--accent1-color);
+}
+
+nav a{
+    font-size: 20px;
+    color: var(--accent2-color);
+    text-decoration: none;
+    padding-left: 30px;
+}
+hr{
+    height: 3px;
+    margin: 20px 0;
+    background: var(--secondary-color);
+}
+h1{
+    position: absolute;
+}
+
+.hero {
+    position: relative;
+}
+.heroimg{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, h2{
+    text-transform: uppercase;
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+h2{
+    font-size: 30px;
+}
+.sociallinks img{
+    height: 50px;
+}
+nav{
+    text-align: center;
+    font-size: 1.3em;
+    height: 3em;
+}
+
+nav a{
+    color: var(--navigation-link-color);
+    text-decoration: none;
+    padding: 2rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--navigation-link-color);
+}
+
+nav a:hover{
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background-color);
+}

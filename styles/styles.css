@@ -3,19 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+header, .grid, footer {
+    margin: 0 auto;
+    max-width: 840px;
+}
 nav{
-    margin-top: 20px;
+    background-color: rgb(150, 215, 71);
     text-align: center;
+    padding: 1rem;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
 }
 nav a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
-    padding: 23px;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+}
+.grid{
+    display: grid;
+    align-items: center;
 }
 main{
-    max-width: 1024px;
-    height: 250px;
+    max-width: 50rem;
+    /*height: 250px;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 40px;*/
+    grid-column: 4/3;
+    margin: 1rem;
 }
 main h1{
     text-align: center;
@@ -23,7 +41,7 @@ main h1{
 }
 main p{
     margin-top: 15px;
-    margin-left: 270px;
+    margin-left: 20px;
     width: 500px;
 }
 
@@ -31,39 +49,40 @@ main img{
     float:right;
     width: 200px;
     height: auto;
-    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 p{
     padding: 0;
 }
 aside{
-    width: 1024px;
-    height: 250px;
+    width: 20rem;
     position: relative;
     text-align: justify;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 aside h2{
     position: absolute;
     top: 20px;
-    left: 80px;
+    left: 130px;
 }
 aside p{
-    margin-left: 230px;
-    margin-top: 80px;
+    margin-top: 10px;
 }
 aside img{
-    float: left;
+    align-items: center;
     margin-top: 50px;
-    width: 200px;
+    width: 285px;
     height: auto;
 }
 footer{
-    margin: 0;
-    padding-top: 1em;
+    padding-top: .5em;
     border-top: 2px solid rgb(115, 215, 116);
     text-align: center;
 }
-/* Class Selectors */
+
+/* Class Selectors*/
 .box{
     margin: 3%;
     margin-top: 8%;
@@ -73,7 +92,6 @@ footer{
     color: rgb(251, 251, 251);
 }
 li{
-   margin-left: 400px;
    list-style: none;
 }
 li a{

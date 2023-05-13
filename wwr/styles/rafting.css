@@ -9,36 +9,49 @@
     --heading-font: 'Philosopher', serif;
     --paragraph-font: 'Roboto Condensed', serif;
 
-    --navigation-background-color: #4e9655;
+    --navigation-background-color: #E6E615;
     --navigation-link-color:#584207;
-    --navigation-hover-link-color:#48A0DC;
-    --navigation-hover-background-color:#E6E615;
+    --navigation-hover-link-color:#4e9655;
+    --navigation-hover-background-color: #48A0DC;
 }
 
 body{
     font-family: var(--paragraph-font);
-    max-width: 1020px;
+    max-width: 1000px;
     margin: auto;
     background-color: var(--accent1-color);
 }
 
-nav a{
+header{
+    margin: 1rem auto;
+	display: grid;
+    grid-template-columns: 170px 45fr 4fr;
+}
+header img{
+    width: 150px;
+}
+.head{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 150px;
+    text-align: right;
+    font-size: 20px;
+    height: 2em;
+}
+.head a{
     font-size: 20px;
     color: var(--accent2-color);
     text-decoration: none;
-    padding-left: 30px;
-}
-hr{
-    height: 3px;
-    margin: 20px 0;
-    background: var(--secondary-color);
-}
-h1{
-    position: absolute;
+    color: var(--navigation-link-color);
+    text-decoration: none;
+    padding: 2.2rem;
 }
 
 .hero {
     position: relative;
+}
+h1{
+    position: absolute;
 }
 .heroimg{
     display: block;
@@ -47,6 +60,7 @@ h1{
 }
 .hpp{
     float: right;
+    width: 300px;
 }
 h1, h2{
     text-transform: uppercase;
@@ -57,25 +71,29 @@ h2{
     font-size: 30px;
 }
 .sociallinks img{
-    height: 50px;
+    float: right;
+    height: 30px;
+    margin-left: 47px;
 }
-nav{
-    text-align: center;
-    font-size: 1.3em;
-    height: 3em;
+.container img{
+    height: 80px;
 }
-
-nav a{
-    color: var(--navigation-link-color);
-    text-decoration: none;
-    padding: 2rem;
+.slider{
+    display: flex;
+    list-style: none;
 }
-
-nav a:link, nav a:visited {
+.head a:link, .head a:visited {
     color: var(--navigation-link-color);
 }
-
-nav a:hover{
+.head a:hover{
     color: var(--navigation-hover-link-color);
     background-color: var(--navigation-hover-background-color);
+}
+footer p{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+figcaption{
+    text-align: center;
 }

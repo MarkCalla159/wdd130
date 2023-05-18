@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz Form</title>
+        <link rel="stylesheet" href="styles/quizz.css">
+        <meta name="description" content="Mark Calla's BYU-I WDD 130 Quiz Form">
+        <meta name="author" content="Mark Calla">
+    </head>
+    <body>
+        <hr>
+        <header>
+            <h1>WDD 130 | Mark Calla - Quizz Form</h1>
+        </header>
+        <main>
+            <form id="quizz">
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label for="q1">What does the acronym CSS stand for?</label>
+                    <br>
+                    <input type="text" placeholder=" First Answer" name="q1" id="q1" required>
+                    <br>
+                    <label for="q2">How are id and class attributes selected in CSS?</label>
+                    <br>
+                    <textarea name="q2" id="q2" cols="30" rows="10" placeholder=" Second Answer"></textarea>
+                    <br>
+                    <label for="q3">Which of the following is a valid CSS comment</label>
+                    <br>
+                    <select aria-label="Select" name="q3" id="q3">
+                        <option value="choiseOne">// Write your comment here</option>
+                        <option value="choiseTwo"> /* Write your comment here*/</option>
+                        <option value="choiseThree">! Write your comment here></option>
+                    </select>
+                    <br>
+                    <label for="q4">What is the bottom margin given this declaration?
+                        margin: 10px 5px 15px; 
+                    </label>
+                    <br>
+                    <input type="number" placeholder="Fourth Question" name="q4" id="q4">
+                </fieldset>
+                <button type="submit">Submit Quizz</button>
+            </form>
+        </main>
+        <footer>
+            ©️2023 🗿 Quizz Form 🗿 Mark Anthony Calla Vargaya 🗿 WDD130
+        </footer>
+    </body>
+</html>

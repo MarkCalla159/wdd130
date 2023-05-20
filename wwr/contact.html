@@ -59,23 +59,17 @@
                         <br>
                         <input type="text" name="usrEmail" id="usrEmail" placeholder="Enter your E-mail">
                         <br>
-                        <label for="mssgPrps1">Select:</label>
+                        <label>Select:</label>
                         <br>
-                        <select name="mssgPrps1" id="mssgPrps1">
-                            <option value="choiseOne">General Inquiry</option>
-                            <option value="choiseTwo">Reservation Question</option>
-                            <option value="choiseThree">Website Suggestion</option>
-                        </select>
+                            <input type="radio" name="suscribe1" id="mssgPrps1"> <label for="mssgPrps1">General Inquiry</label> 
+                            <input type="radio" name="suscribe1"  id="mssgPrps3"> <label for="mssgPrps3">Reservation Question</label> 
+                            <input type="radio" name="suscribe1"  id="mssgPrps4"> <label for="mssgPrps4">Website Suggestion</label>
                         <br>
                         <br>
-                        <label for="mssgPrps2"></label>
                         <textarea name="mssgPrps2" id="mssPrps2" cols="30" rows="10" placeholder="Write your suggestion or question"></textarea>
                         <br>
-                        <label for="suscribe"> "Please subscribe me to the monthly newsletter"</label>
-                        <br>
-                        <input type="radio" name="suscribe1" id="suscribe1"> <label for="suscribe1">Yes</label> 
-                        <input type="radio" name="suscribe"  id="suscribe2"> <label for="suscribe2">No</label> 
-                        <input type="radio" name="suscribe"  id="suscribe3"> <label for="suscribe3">Later</label> 
+                        <input type="checkbox" name="suscribe" id="suscribe"><label for="suscribe"> "Please subscribe me to the monthly newsletter"</label>
+                        <br> 
                     </fieldset>
                     <br>
                     <button type="submit">Submit Suggestion or Doubt</button>

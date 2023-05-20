@@ -50,9 +50,6 @@ header img{
 .hero {
     position: relative;
 }
-h1{
-    position: absolute;
-}
 .heroimg{
     display: block;
     width: 100%;
@@ -92,8 +89,66 @@ h2{
 footer p{
     text-align: center;
     margin-top: 40px;
-    
 }
 figcaption{
     text-align: center;
+}
+/*Contact*/
+
+#contactInfo{
+    position: absolute;
+    float: right;
+}
+aside{
+    display: inline-block;
+}
+#userForm{
+    float: right;
+    margin-top: 100px;
+}
+fieldset{
+    border-color: var(--accent2-color);
+}
+legend{
+    font-family: var(--heading-font);
+    font-size: 19px;
+    color: var(--accent2-color);
+}
+label{
+    margin-top: 15px;
+    display:inline-block;
+}
+input, textarea, select{
+    display: inline-block;
+    margin-top: 10px;
+}
+select, input[type=text], input[type=number]{
+    width: 85%;
+    padding: 4px;
+    display: inline-block;
+    border: 2px solid #84c754;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #13180f;
+}
+textarea{
+    width: 90%;
+    padding: 2px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid var(--secondary-color);
+    border-radius: 4px;
+    box-sizing:inherit;
+    color: var(--accent2-color);
+}
+button{
+    width: 100%;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    padding: 0.5em;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
 }
